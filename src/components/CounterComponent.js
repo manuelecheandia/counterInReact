@@ -9,7 +9,7 @@ const CounterComponent = () =>{
 
     return (
         <div>
-            <h1>Counter: {counter} </h1>
+            <h1 className={ counter < 0 ? "negative" : "positive"} > Counter: {counter} </h1>
             <hr/>
             <button onClick={decrease}  >Decrease (-)</button>
             <button onClick={increase}  >Increase (+)</button>

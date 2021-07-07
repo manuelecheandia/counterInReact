@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: snow;
+    text-align: center;
+}
+
+.negative{
+    color: tomato;
+}
+
+.positive{
+    color: limegreen;
+}
+
+button{
+    margin: 0px 1rem;
+    padding: 8px 15px;
+}

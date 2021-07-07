@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './style.css';
 import CounterComponent from './components/CounterComponent';
 
 function App() {
